@@ -1,0 +1,68 @@
+{
+    "basic_info": {
+      "name": "Aldo Matus",
+      "titles": [ "Back-end Developer", "Python Developer", "Jr Data Engineer", "AWS Services" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Go",
+          "class": "devicon-go-original-wordmark",
+          "level": "95"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-original",
+          "level": "80"
+        },
+        {
+          "name": "Postgres",
+          "class": "devicon-postgresql-plain",
+          "level": "90"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "95"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "75"
+        },
+        {
+          "name": "FastAPI",
+          "class": "devicon-fastapi-plain",
+          "level": "85"
+        },
+        {
+          "name": "Linux Servers",
+          "class": "devicon-linux-plain",
+          "level": "50"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "60"
+        }
+      ]
+    }
+  }
