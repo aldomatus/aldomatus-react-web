@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import pythonIcon from "@iconify/icons-logos/python";
+import djangoIcon from "@iconify/icons-logos/django";
+import postgresqlIcon from "@iconify/icons-logos/postgresql";
+import awsIcon from "@iconify/icons-logos/aws";
 
 class About extends Component {
   render() {
@@ -26,20 +27,24 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="320px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={djangoIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={reactIcon}
+                    icon={pythonIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={postgresqlIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={awsIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
@@ -72,7 +77,7 @@ class About extends Component {
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
-                      fontSize: "132%",
+                      fontSize: "160%",
                       lineHeight: "200%",
                     }}
                   >

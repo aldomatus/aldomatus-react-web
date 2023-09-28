@@ -1,116 +1,191 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Aldo Matus. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Hola",
+    "description": "👋 Soy Aldo Matus, un desarrollador de backend en Python con experiencia en procesamiento de datos, optimización empresarial e ingeniería de datos. Mi experiencia abarca desarrollo web, creación de API, gestión de bases de datos e implementación de soluciones de Data. Tengo un fuerte enfoque en utilizar tecnología de vanguardia y mejores prácticas de programación para impulsar el crecimiento empresarial. Fuera del trabajo, mis intereses son la música y la ciencia de datos. 🚀",
+    "section_name": {
+      "about": "Acerca de mí",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "experience": "Experiencia"
+    }
+  },
+  "projects": [
+    {
+      "title": "Construcción de Backend desde cero",
+      "startDate": "2020",
+      "description": "Desarrollé el backend desde cero utilizando FastAPI y Postgres. Diseñé APIs RESTful para un frontend basado en React. Habilidades: FastAPI, Pruebas Unitarias, Python, Linux, PostgreSQL",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-fastapi-plain",
+          "name": "FastAPI"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "Postgresql"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Análisis de Datos de API",
+      "startDate": "2023",
+      "description": "Este proyecto se centra en agregar datos de diversas plataformas publicitarias, incluyendo Google Ads, Facebook Ads y Google Analytics. Utilizando AWS Lambdas, extraemos datos y realizamos un proceso ETL (Extraer, Transformar, Cargar) para alimentar un panel integral. Este panel está construido con Django y React, ofreciendo información y análisis en tiempo real.",
+      "images": [
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-amazonwebservices-original",
+          "name": "AWS Lambdas"
+        },
+        {
+          "class": "devicon-django-plain",
+          "name": "Django Rest Framework"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "Postgresql"
+        },
+        {
+          "class": "devicon-docker-plain",
+          "name": "Docker"
+        },
+        {
+          "class": "devicon-linux-plain",
+          "name": "Linux"
+        }
+      ]
+    },
+    {
+      "title": "Análisis de Ingresos por Publicidad",
+      "startDate": "2021",
+      "description": "Este proyecto implica el análisis en profundidad de las interacciones de los usuarios con los anuncios, específicamente el seguimiento de la frecuencia con la que los usuarios individuales ven anuncios y las posteriores inscripciones en nuestra aplicación. Utilizando Flask para el backend, Redis para el almacenamiento en caché y MySQL para la gestión de bases de datos, el sistema captura y procesa estos comportamientos de usuario en tiempo real. Los datos se analizan luego para optimizar el rendimiento de los anuncios y mejorar las tasas de conversión de visualizaciones de anuncios a inscripciones en la aplicación.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-flask-plain",
+          "name": "Flask"
+        },
+        {
+          "class": "devicon-redis-plain",
+          "name": "Redis"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "Mysql"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Zuno®",
+      "title": "Desarrollador de Backend (Ingeniero de Datos)",
+      "years": "10.2022 - presente",
+      "mainTech": [
+        "Django Rest Framework"
+      ],
+      "technologies": [
+        "Django Rest Framework",
+        "AWS Lambda",
+        "Docker",
+        "API REST",
+        "AWS Codebuild",
+        "Postgres",
+        "Pruebas",
+        "CI/CD"
+      ]
+    },
+    {
+      "company": "We Book You",
+      "title": "Desarrollador de Backend",
+      "years": "04.2022 - 11.2022",
+      "mainTech": [
+        "FastAPI"
+      ],
+      "technologies": [
+        "FastAPI",
+        "Linux",
+        "Postgres",
+        "Pruebas unitarias",
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "company": "Envíoclick | Ship Smarter",
+      "title": "Desarrollador de Backend",
+      "years": "02.2022 - 10.2022",
+      "mainTech": [
+        "AWS Lambda"
+      ],
+      "technologies": [
+        "Flask",
+        "Redis",
+        "Linux",
+        "Postgres",
+        "Pruebas unitarias",
+        "Amazon Web Services",
+        "Consumo de API de terceros"
+      ]
+    },
+    {
+      "company": "Cura Deuda®",
+      "title": "Desarrollador de Backend (Ingeniero de Datos)",
+      "years": "07.2021 - 06.2022",
+      "mainTech": [
+        "Flask"
+      ],
+      "technologies": [
+        "Flask",
+        "Redis",
+        "Docker",
+        "MySQL",
+        "Linux",
+        "Pruebas unitarias",
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "company": "Freelance",
+      "title": "Desarrollador de Backend",
+      "years": "01.2021 - 06.2021",
+      "mainTech": [
+        "Django"
+      ],
+      "technologies": [
+        "Django",
+        "HTML",
+        "CSS3",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Gobierno del Estado de Oaxaca",
+      "title": "Desarrollador de Backend",
+      "years": "06.2019 - 01.2020",
+      "mainTech": [
+        "Php"
+      ],
+      "technologies": [
+        "Php",
+        "Laravel",
+        "HTML",
+        "JavaScript"
+      ]
+    }
+  ]
+}

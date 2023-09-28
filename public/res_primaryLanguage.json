@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Aldo Matus. A Python Backend Developer specializing in data processing and business optimization. Experienced in web development, API creation, and database management, with a focus on utilizing cutting-edge technology to drive business growth. 🚀",
+      "description": "👋 I'm Aldo Matus, a Python Backend Developer with expertise in data processing, business optimization, and Data Engineering. My experience encompasses web development, API creation, database management, and implementing Data solutions. I have a strong focus on utilizing cutting-edge technology and best programming practices to drive business growth. Outside of work, my interests are music and data science. 🚀",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -13,7 +13,7 @@
       {
         "title": "Backend Build from scratch",
         "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Developed the backend from scratch using FastAPI and Postgres. Designed RESTful APIs for React-based frontend. Skills: FastAPI, Unit Testing, Python, Linux, PostgreSQL",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
@@ -21,23 +21,23 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-fastapi-plain",
+            "name": "FastAPI"
           },
           {
-            "class": "devicon-typescript-plain",
+            "class": "devicon-amazonwebservices-plain",
             "name": "TypeScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-postgresql-plain",
+            "name": "Postgresql"
           }
         ]
       },
       {
         "title": "API Data Analysis",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "startDate": "2023",
+        "description": "This project focuses on aggregating data from various advertising platforms including Google Ads, Facebook Ads, and Google Analytics. Utilizing AWS Lambdas, we extract data and undergo an ETL (Extract, Transform, Load) process to feed into a comprehensive dashboard. This dashboard is built using Django and React, providing real-time insights and analytics.",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
@@ -45,19 +45,31 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-amazonwebservices-original",
+            "name": "AWS Lambdas"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-django-plain",
+            "name": "Django Rest Framework"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "Postgresql"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-linux-plain",
+            "name": "Linux"
           }
         ]
       },
       {
         "title": "Ad Revenue Analysis",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "startDate": "2021",
+        "description": "This project involves the in-depth analysis of user interactions with ads, specifically tracking the frequency at which individual users view ads and the subsequent registrations within our application. Utilizing Flask for the backend, Redis for caching, and MySQL for database management, the system captures and processes these user behaviors in real-time. The data is then analyzed to optimize ad performance and improve conversion rates from ad views to app registrations.",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -65,53 +77,114 @@
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-flask-plain",
+            "name": "Flask"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-redis-plain",
+            "name": "Redis"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-mysql-plain",
+            "name": "Mysql"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Zuno®",
+        "title": "Backend End Developer (Data Engineer)",
+        "years": "10.2022 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Django Rest Framework"
         ],
         "technologies": [
+          "Django Rest Framework",
+          "AWS Lambda",
+          "Docker",
           "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "AWS Codebuild",
+          "Postgres",
+          "Testing",
+          "CI/CD"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "We Book You",
+        "title": "Back End Developer",
+        "years": "04.2022 - 11.2022",
         "mainTech": [
-          "Angular 7/8"
+          "FastAPI"
         ],
         "technologies": [
-          "RxJS",
+          "FastAPI",
+          "Linux",
+          "Postgres",
+          "Unit testing",
+          "Amazon Web Services"
+        ]
+      },
+      {
+        "company": "Envíoclick | Ship Smarter",
+        "title": "Back End Developer",
+        "years": "02.2022 - 10.2022",
+        "mainTech": [
+          "AWS Lambda"
+        ],
+        "technologies": [
+          "Flask",
+          "Redis",
+          "Linux",
+          "Postgres",
+          "Unit testing",
+          "Amazon Web Services",
+          "Third-party API consumption"
+        ]
+      },
+      {
+        "company": "Cura Deuda®",
+        "title": "Back End Developer (Data engineer)",
+        "years": "07.2021 - 06.2022",
+        "mainTech": [
+          "Flask"
+        ],
+        "technologies": [
+          "Flask",
+          "Redis",
+          "Docker",
+          "MySQL",
+          "Linux",
+          "Unit testing",
+          "Amazon Web Services"
+        ]
+      },
+      {
+        "company": "Freelance",
+        "title": "Back End Developer",
+        "years": "01.2021 - 06.2021",
+        "mainTech": [
+          "Django"
+        ],
+        "technologies": [
           "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "HTML",
+          "CSS3",
+          "MySQL"
+        ]
+      },
+      {
+        "company": "Gobierno del Estado de Oaxaca",
+        "title": "Back End Developer",
+        "years": "06.2019 - 01.2020",
+        "mainTech": [
+          "Php"
+        ],
+        "technologies": [
+          "Php",
+          "HTML",
+          "CSS3",
+          "MySQL"
         ]
       }
     ]
