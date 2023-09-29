@@ -89,6 +89,48 @@ header h1 {
 	width: 100%;
 }
 
+// Social Media Table
+#socialMediaTable {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 999;
+  
+	td {
+	  padding: 0 20px;
+	}
+  
+	img {
+	  width: 46px;
+	  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	  transition: all 0.3s ease;
+	  border-radius: 50%;
+	}
+  
+	img:hover {
+	  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+	  transform: translateY(-3px);
+	}
+  
+	@media (max-width: 768px) {
+	  bottom: 10px;
+	  right: 10px;
+  
+	  tr {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	  }
+  
+	  td {
+		padding: 10px 0;
+	  }
+	}
+  }
+  
+  
+
+
 .slider-image {
 	border: 5px solid #D7CAAA;
 }

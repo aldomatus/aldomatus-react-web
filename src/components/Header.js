@@ -36,6 +36,27 @@ class Header extends Component {
 
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
+
+        <table align="center" id="socialMediaTable" style={{marginTop: '140'}}>
+          <tr>
+            <td align="center">
+              <a href="https://www.linkedin.com/in/aldomatus/">
+                <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/linkedin.svg" alt="LinkedIn" width="40"/>
+              </a>
+            </td>
+            <td align="center">
+              <a href="https://api.whatsapp.com/send?phone=529515577974">
+                <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/whatsapp.svg" alt="WhatsApp" width="40"/>
+              </a>
+            </td>
+            <td align="center">
+              <a href="https://t.me/aldomatus">
+                <img src="https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/telegram.svg" alt="Telegram" width="40"/>
+              </a>
+            </td>
+          </tr>
+        </table>
+
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
