@@ -1,0 +1,22 @@
+.recommended-section {
+    text-align: center;
+    margin: 2rem 0;
+  
+    .recommended-container {
+      background: black;
+      color: red;
+      padding: 1rem;
+      border-radius: 10px;
+  
+      .recommended-button {
+        display: inline-block;
+        margin-top: 1rem;
+        color: white;
+        background: red;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+    }
+  }
+  

@@ -7,15 +7,16 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import RecommendedProductsPage from "./components/RecommendedProductsPage";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
       foo: "bar",
       resumeData: {},
       sharedData: {},
+      showProducts: false, // Controla si la sección de productos está visible
     };
   }
 
@@ -79,10 +80,33 @@ class App extends Component {
     });
   }
 
+  toggleProducts = () => {
+    this.setState((prevState) => ({
+      showProducts: !prevState.showProducts,
+    }));
+  };
+
   render() {
     return (
       <div>
         <Header sharedData={this.state.sharedData.basic_info} />
+        <div className="products-toggle">
+          <button onClick={this.toggleProducts}>
+            {this.state.showProducts ? "Cerrar" : "Ver Productos Recomendados"}
+            <img
+            src="images/selling_products/meli.png"
+            alt="Mercado Libre"
+            className="mercado-libre-icon"
+            />
+          </button>
+        </div>
+  
+        {/* Capa de productos */}
+        {this.state.showProducts && (
+          <div className="products-overlay">
+            <RecommendedProductsPage />
+          </div>
+        )}
         <div className="col-md-12 mx-auto text-center language">
           <div
             onClick={() =>
@@ -117,26 +141,31 @@ class App extends Component {
             ></span>
           </div>
         </div>
-        <About
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
-        />
-        <Skills
-          sharedSkills={this.state.sharedData.skills}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Experience
-          resumeExperience={this.state.resumeData.experience}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
-        <Projects
-          resumeProjects={this.state.resumeData.projects}
-          resumeBasicInfo={this.state.resumeData.basic_info}
-        />
+
+        {/* Contenido principal */}
+        <div style={{ display: this.state.showProducts ? "none" : "block" }}>
+          <About
+            resumeBasicInfo={this.state.resumeData.basic_info}
+            sharedBasicInfo={this.state.sharedData.basic_info}
+          />
+          <Skills
+            sharedSkills={this.state.sharedData.skills}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+          <Experience
+            resumeExperience={this.state.resumeData.experience}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+          <Projects
+            resumeProjects={this.state.resumeData.projects}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+        </div>
+  
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );
-  }
+  }  
 }
 
 export default App;
